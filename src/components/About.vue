@@ -6,7 +6,7 @@
         <div class="fade-in-left relative">
           <div class="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+              src="/images/about-team.png"
               alt="Construction team at work"
               class="w-full h-80 lg:h-[500px] object-cover"
             />

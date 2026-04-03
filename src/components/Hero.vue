@@ -4,7 +4,7 @@
     <div class="absolute inset-0 z-0">
       <div class="absolute inset-0 bg-gradient-to-br from-primary-dark/95 via-primary/90 to-primary-light/85 z-10"></div>
       <img
-        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80"
+        src="/images/construction-hero.png"
         alt="Construction site"
         class="w-full h-full object-cover"
       />

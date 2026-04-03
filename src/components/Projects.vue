@@ -45,31 +45,31 @@ const projects = [
     title: 'Modern Residential Build',
     category: 'New Construction',
     description: 'Complete 4-bedroom home with contemporary design and premium finishes.',
-    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80',
+    image: '/images/residential-build.png',
   },
   {
     title: 'Commercial Office Renovation',
     category: 'Renovation',
     description: 'Full interior remodel of a 5,000 sq ft office space.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80',
+    image: '/images/office-renovation.png',
   },
   {
     title: 'Custom Kitchen Remodel',
     category: 'Renovation',
     description: 'High-end kitchen renovation with custom cabinetry.',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80',
+    image: '/images/kitchen-remodel.png',
   },
   {
     title: 'Roof Replacement',
     category: 'Roofing',
     description: 'Complete roof replacement with premium materials.',
-    image: 'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80',
+    image: '/images/roof-replacement.png',
   },
   {
     title: 'Concrete Driveway',
     category: 'Concrete',
     description: 'Decorative stamped concrete driveway and walkways.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80',
+    image: '/images/concrete-driveway.png',
   },
 ]
 </script>
