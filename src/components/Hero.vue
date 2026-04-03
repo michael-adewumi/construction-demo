@@ -27,21 +27,43 @@
         </div>
 
         <h1 class="fade-in-up text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-tight tracking-tight">
-          Trusted Home Renovation
+          Transform Your Home
           <span class="block mt-2">
-            & Construction in
-            <span class="text-accent"> Houston</span>
+            with Houston's Most
+            <span class="text-accent"> Trusted</span> Experts
           </span>
         </h1>
 
-        <p class="fade-in-up mt-6 text-lg sm:text-xl text-white/75 max-w-2xl leading-relaxed">
-          We help homeowners transform their spaces with reliable, high-quality construction and remodeling services. From kitchens to full renovations — done right, on time, and on budget.
+        <p class="fade-in-up mt-6 text-lg sm:text-xl text-white/80 max-w-2xl leading-relaxed">
+          We deliver high-quality home renovations with reliable timelines, transparent pricing, and results you'll love. From kitchens to full renovations — done right, on time, and on budget.
         </p>
 
-        <div class="fade-in-up mt-10 flex flex-col sm:flex-row gap-4">
+        <!-- Urgency micro-copy -->
+        <div class="fade-in-up mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-white/60 text-sm">
+          <span class="flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            Free consultation
+          </span>
+          <span class="flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            No obligation quote
+          </span>
+          <span class="flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+            </svg>
+            Response within 24 hrs
+          </span>
+        </div>
+
+        <div class="fade-in-up mt-8 flex flex-col sm:flex-row gap-4">
           <a
             href="#contact"
-            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-accent hover:bg-accent-dark text-white font-bold rounded-xl text-lg transition-all duration-200 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5"
+            class="inline-flex items-center justify-center gap-2 px-10 py-5 bg-accent hover:bg-accent-dark text-white font-bold rounded-xl text-lg transition-all duration-200 hover:shadow-xl hover:shadow-accent/30 hover:-translate-y-0.5 ring-2 ring-accent/50"
             @click.prevent="scrollTo('contact')"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -51,7 +73,7 @@
           </a>
           <a
             href="tel:+17135551234"
-            class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl text-lg border border-white/20 transition-all duration-200 backdrop-blur-sm hover:-translate-y-0.5"
+            class="inline-flex items-center justify-center gap-2 px-8 py-5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl text-lg border border-white/20 transition-all duration-200 backdrop-blur-sm hover:-translate-y-0.5"
           >
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>

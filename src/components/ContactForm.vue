@@ -4,13 +4,13 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
         <!-- Left: Info -->
         <div class="fade-in-left">
-          <span class="text-accent font-semibold text-sm uppercase tracking-widest">Contact Us</span>
+          <span class="text-accent font-semibold text-sm uppercase tracking-widest">Get Started</span>
           <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
-            Let's Talk About<br/>
-            <span class="text-accent">Your Home Project</span>
+            Get Your Free Quote<br/>
+            <span class="text-accent">Within 24 Hours</span>
           </h2>
           <p class="mt-6 text-lg text-text-secondary leading-relaxed">
-            Ready to get started? Fill out the form and we'll get back to you within 24 hours with a free estimate. Or call us directly — we pick up the phone.
+            No obligation. No pressure. Fill out the form and our team will call you within 24 hours with a free, detailed estimate — or call us directly.
           </p>
 
           <!-- Prominent Call Now -->
@@ -76,8 +76,13 @@
             @submit.prevent="handleSubmit"
             class="bg-surface rounded-2xl p-8 lg:p-10 border border-gray-100"
           >
-            <h3 class="text-2xl font-bold text-text-primary mb-2">Get Your Free Quote</h3>
-            <p class="text-text-secondary text-sm mb-6">Fill out the form below and we'll reach out within 24 hours.</p>
+            <h3 class="text-2xl font-bold text-text-primary mb-1">Request Your Free Quote</h3>
+            <p class="text-text-secondary text-sm mb-1">No obligation — just a quick conversation about your project.</p>
+            <div class="flex flex-wrap items-center gap-3 mb-5 text-xs text-text-muted">
+              <span class="flex items-center gap-1"><svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Free consultation</span>
+              <span class="flex items-center gap-1"><svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Fast response</span>
+              <span class="flex items-center gap-1"><svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>No hidden fees</span>
+            </div>
 
             <div class="space-y-5">
               <div>
