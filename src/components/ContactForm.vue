@@ -6,26 +6,30 @@
         <div class="fade-in-left">
           <span class="text-accent font-semibold text-sm uppercase tracking-widest">Contact Us</span>
           <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
-            Let's Discuss<br/>
-            <span class="text-accent">Your Project</span>
+            Let's Talk About<br/>
+            <span class="text-accent">Your Home Project</span>
           </h2>
           <p class="mt-6 text-lg text-text-secondary leading-relaxed">
-            Ready to get started? Fill out the form and we'll get back to you within 24 hours with a free estimate.
+            Ready to get started? Fill out the form and we'll get back to you within 24 hours with a free estimate. Or call us directly — we pick up the phone.
           </p>
 
-          <div class="mt-10 space-y-6">
-            <div class="flex items-center gap-4">
-              <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
-                <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                </svg>
-              </div>
-              <div>
-                <p class="font-semibold text-text-primary">Phone</p>
-                <a href="tel:+15551234567" class="text-text-secondary hover:text-accent transition-colors">(555) 123-4567</a>
-              </div>
+          <!-- Prominent Call Now -->
+          <a
+            href="tel:+17135551234"
+            class="mt-6 inline-flex items-center gap-3 px-6 py-4 bg-accent/10 hover:bg-accent/20 rounded-xl border border-accent/20 transition-all group"
+          >
+            <div class="w-12 h-12 rounded-xl bg-accent flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+              </svg>
             </div>
+            <div>
+              <p class="text-sm text-text-secondary">Call us directly</p>
+              <p class="text-xl font-bold text-accent">(713) 555-1234</p>
+            </div>
+          </a>
 
+          <div class="mt-8 space-y-5">
             <div class="flex items-center gap-4">
               <div class="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center flex-shrink-0">
                 <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -34,7 +38,7 @@
               </div>
               <div>
                 <p class="font-semibold text-text-primary">Email</p>
-                <a href="mailto:info@solidbuild.com" class="text-text-secondary hover:text-accent transition-colors">info@solidbuild.com</a>
+                <a href="mailto:info@solidbuildhouston.com" class="text-text-secondary hover:text-accent transition-colors">info@solidbuildhouston.com</a>
               </div>
             </div>
 
@@ -47,7 +51,7 @@
               </div>
               <div>
                 <p class="font-semibold text-text-primary">Location</p>
-                <p class="text-text-secondary">Austin, TX</p>
+                <p class="text-text-secondary">Houston, TX & surrounding areas</p>
               </div>
             </div>
 
@@ -60,6 +64,7 @@
               <div>
                 <p class="font-semibold text-text-primary">Business Hours</p>
                 <p class="text-text-secondary">Mon – Fri: 7:00 AM – 6:00 PM</p>
+                <p class="text-text-secondary">Sat: 8:00 AM – 2:00 PM</p>
               </div>
             </div>
           </div>
@@ -71,11 +76,12 @@
             @submit.prevent="handleSubmit"
             class="bg-surface rounded-2xl p-8 lg:p-10 border border-gray-100"
           >
-            <h3 class="text-2xl font-bold text-text-primary mb-6">Get a Free Quote</h3>
+            <h3 class="text-2xl font-bold text-text-primary mb-2">Get Your Free Quote</h3>
+            <p class="text-text-secondary text-sm mb-6">Fill out the form below and we'll reach out within 24 hours.</p>
 
             <div class="space-y-5">
               <div>
-                <label for="name" class="block text-sm font-medium text-text-primary mb-1.5">Full Name</label>
+                <label for="name" class="block text-sm font-medium text-text-primary mb-1.5">Full Name *</label>
                 <input
                   id="name"
                   v-model="form.name"
@@ -86,55 +92,53 @@
                 />
               </div>
 
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                <div>
-                  <label for="phone" class="block text-sm font-medium text-text-primary mb-1.5">Phone</label>
-                  <input
-                    id="phone"
-                    v-model="form.phone"
-                    type="tel"
-                    placeholder="(555) 123-4567"
-                    required
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all"
-                  />
-                </div>
-                <div>
-                  <label for="email" class="block text-sm font-medium text-text-primary mb-1.5">Email</label>
-                  <input
-                    id="email"
-                    v-model="form.email"
-                    type="email"
-                    placeholder="john@email.com"
-                    required
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all"
-                  />
-                </div>
+              <div>
+                <label for="phone" class="block text-sm font-medium text-text-primary mb-1.5">Phone Number * <span class="text-text-muted font-normal">(we'll call, not spam)</span></label>
+                <input
+                  id="phone"
+                  v-model="form.phone"
+                  type="tel"
+                  placeholder="(713) 555-1234"
+                  required
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all"
+                />
               </div>
 
               <div>
-                <label for="projectType" class="block text-sm font-medium text-text-primary mb-1.5">Project Type</label>
+                <label for="email" class="block text-sm font-medium text-text-primary mb-1.5">Email</label>
+                <input
+                  id="email"
+                  v-model="form.email"
+                  type="email"
+                  placeholder="john@email.com"
+                  class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all"
+                />
+              </div>
+
+              <div>
+                <label for="projectType" class="block text-sm font-medium text-text-primary mb-1.5">Project Type *</label>
                 <select
                   id="projectType"
                   v-model="form.projectType"
                   required
                   class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all appearance-none"
                 >
-                  <option value="" disabled>Select a project type</option>
-                  <option value="general">General Construction</option>
-                  <option value="renovation">Renovation</option>
-                  <option value="roofing">Roofing</option>
-                  <option value="concrete">Concrete Work</option>
+                  <option value="" disabled>What do you need help with?</option>
+                  <option value="kitchen">Kitchen Remodeling</option>
+                  <option value="bathroom">Bathroom Remodeling</option>
+                  <option value="renovation">Home Renovation</option>
+                  <option value="construction">General Construction</option>
                   <option value="other">Other</option>
                 </select>
               </div>
 
               <div>
-                <label for="message" class="block text-sm font-medium text-text-primary mb-1.5">Project Details</label>
+                <label for="message" class="block text-sm font-medium text-text-primary mb-1.5">Tell Us About Your Project</label>
                 <textarea
                   id="message"
                   v-model="form.message"
-                  rows="4"
-                  placeholder="Tell us about your project..."
+                  rows="3"
+                  placeholder="Describe what you're looking to build or renovate..."
                   class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-white text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-all resize-none"
                 ></textarea>
               </div>
@@ -142,16 +146,25 @@
               <button
                 type="submit"
                 :disabled="submitted"
-                class="w-full py-4 bg-accent hover:bg-accent-dark text-white font-semibold rounded-xl text-lg transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 disabled:opacity-70 disabled:cursor-not-allowed"
+                class="w-full py-4 bg-accent hover:bg-accent-dark text-white font-bold rounded-xl text-lg transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                <span v-if="!submitted">Submit Request</span>
+                <span v-if="!submitted" class="flex items-center justify-center gap-2">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  Request My Free Quote
+                </span>
                 <span v-else class="flex items-center justify-center gap-2">
                   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                   </svg>
-                  Request Sent!
+                  Request Sent! We'll Call You Soon.
                 </span>
               </button>
+
+              <p class="text-xs text-text-muted text-center mt-2">
+                🔒 Your information is safe. We never share or sell your data.
+              </p>
             </div>
           </form>
         </div>

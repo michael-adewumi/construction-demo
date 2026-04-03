@@ -7,7 +7,7 @@
           <div class="relative rounded-2xl overflow-hidden shadow-2xl">
             <img
               src="/images/about-team.png"
-              alt="Construction team at work"
+              alt="SolidBuild Construction team in Houston"
               class="w-full h-80 lg:h-[500px] object-cover"
             />
           </div>
@@ -21,7 +21,7 @@
               </div>
               <div>
                 <p class="text-2xl font-extrabold text-text-primary">10+</p>
-                <p class="text-sm text-text-secondary">Years of Excellence</p>
+                <p class="text-sm text-text-secondary">Years in Houston</p>
               </div>
             </div>
           </div>
@@ -31,14 +31,14 @@
         <div class="fade-in-right">
           <span class="text-accent font-semibold text-sm uppercase tracking-widest">About Us</span>
           <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
-            Building Dreams,<br/>
-            <span class="text-accent">Delivering Quality</span>
+            Houston's Go-To<br/>
+            <span class="text-accent">Home Renovation Team</span>
           </h2>
           <p class="mt-6 text-lg text-text-secondary leading-relaxed">
-            SolidBuild Construction has been transforming properties and building new structures across the region for over a decade. Founded with a commitment to honest, quality work, we've grown through word-of-mouth referrals and repeat customers.
+            SolidBuild Construction has been helping Houston homeowners transform their properties for over a decade. We started as a small crew with a big commitment to honest, quality work — and we've grown through word-of-mouth referrals and repeat customers who trust us with their homes.
           </p>
           <p class="mt-4 text-text-secondary leading-relaxed">
-            Every project we take on is treated with the same level of care and attention, whether it's a small bathroom remodel or a full commercial build-out. We believe in transparent pricing, clear communication, and delivering results that exceed expectations.
+            Every project we take on is treated with the same level of care and professionalism, whether it's a kitchen upgrade, a full bathroom remodel, or a major home renovation. We believe in transparent pricing, clear communication, and results that speak for themselves.
           </p>
 
           <div class="mt-8 grid grid-cols-2 gap-6">
@@ -49,8 +49,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-text-primary">On-Time Delivery</p>
-                <p class="text-sm text-text-secondary">We respect deadlines</p>
+                <p class="font-semibold text-text-primary">On-Time, Every Time</p>
+                <p class="text-sm text-text-secondary">We respect your schedule</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
@@ -60,8 +60,8 @@
                 </svg>
               </div>
               <div>
-                <p class="font-semibold text-text-primary">Budget Friendly</p>
-                <p class="text-sm text-text-secondary">Transparent pricing</p>
+                <p class="font-semibold text-text-primary">No Hidden Costs</p>
+                <p class="text-sm text-text-secondary">Transparent pricing upfront</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
@@ -83,7 +83,7 @@
               </div>
               <div>
                 <p class="font-semibold text-text-primary">Clean Worksites</p>
-                <p class="text-sm text-text-secondary">Respectful & tidy</p>
+                <p class="text-sm text-text-secondary">We treat your home with care</p>
               </div>
             </div>
           </div>

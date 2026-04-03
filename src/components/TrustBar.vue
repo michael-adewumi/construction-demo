@@ -45,7 +45,7 @@ const CheckBadgeIcon = {
 
 const credentials = [
   { icon: ShieldIcon, value: 'Licensed & Insured', label: 'Full Coverage Protection' },
-  { icon: ClockIcon, value: '10+ Years', label: 'Industry Experience' },
-  { icon: CheckBadgeIcon, value: '100+ Projects', label: 'Successfully Completed' },
+  { icon: ClockIcon, value: '10+ Years Experience', label: 'Serving Houston Since 2014' },
+  { icon: CheckBadgeIcon, value: '100+ Projects Completed', label: 'Homes Across Greater Houston' },
 ]
 </script>

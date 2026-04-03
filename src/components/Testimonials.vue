@@ -4,10 +4,10 @@
       <div class="text-center mb-16 fade-in-up">
         <span class="text-accent font-semibold text-sm uppercase tracking-widest">Testimonials</span>
         <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight">
-          What Our Clients Say
+          What Houston Homeowners Say
         </h2>
         <p class="mt-4 text-lg text-text-secondary max-w-2xl mx-auto">
-          Don't just take our word for it — hear from the homeowners and businesses we've served.
+          Don't just take our word for it — hear from the families and homeowners we've served across the Houston area.
         </p>
       </div>
 
@@ -41,7 +41,7 @@
             </div>
             <div>
               <p class="font-semibold text-text-primary">{{ t.name }}</p>
-              <p class="text-sm text-text-secondary">{{ t.role }}</p>
+              <p class="text-sm text-text-secondary">{{ t.location }}</p>
             </div>
           </div>
         </div>
@@ -53,19 +53,19 @@
 <script setup>
 const testimonials = [
   {
-    name: 'James Rodriguez',
-    role: 'Homeowner',
-    text: 'SolidBuild renovated our entire kitchen and bathroom. The crew was professional, showed up on time every day, and the finished result was beyond what we expected. Highly recommend!',
+    name: 'James R.',
+    location: 'Houston, TX',
+    text: 'They remodeled our kitchen and finished ahead of schedule. The crew was professional, showed up on time every day, and the result was beyond what we expected. Our kitchen looks like something out of a magazine.',
   },
   {
-    name: 'Sarah Thompson',
-    role: 'Business Owner',
-    text: 'We hired SolidBuild for our office build-out and they delivered on budget and ahead of schedule. Their communication throughout the project was excellent. We will definitely use them again.',
+    name: 'Maria S.',
+    location: 'Katy, TX',
+    text: 'We hired SolidBuild for a full home renovation and they transformed our 1990s house into a modern home. Communication was excellent throughout the project and they stayed within our budget. Highly recommend!',
   },
   {
-    name: 'Michael Chen',
-    role: 'Property Manager',
-    text: 'After getting quotes from several contractors, SolidBuild offered the best value with clear, honest pricing. The roof replacement they did for us was top-notch quality. Very satisfied.',
+    name: 'David & Lisa T.',
+    location: 'Sugar Land, TX',
+    text: 'After getting quotes from five different contractors, SolidBuild offered the best value with the most detailed proposal. Our master bathroom remodel turned out beautifully. Very satisfied and will use them again.',
   },
 ]
 </script>

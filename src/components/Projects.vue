@@ -4,10 +4,10 @@
       <div class="text-center mb-16 fade-in-up">
         <span class="text-accent font-semibold text-sm uppercase tracking-widest">Our Work</span>
         <h2 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-text-primary tracking-tight">
-          Featured Projects
+          Recent Projects in Houston
         </h2>
         <p class="mt-4 text-lg text-text-secondary max-w-2xl mx-auto">
-          Browse our portfolio of completed projects showcasing our craftsmanship and attention to detail.
+          Real results for real homeowners. Browse our portfolio of completed renovations and construction projects across the Houston area.
         </p>
       </div>
 
@@ -42,33 +42,33 @@
 <script setup>
 const projects = [
   {
-    title: 'Modern Residential Build',
-    category: 'New Construction',
-    description: 'Complete 4-bedroom home with contemporary design and premium finishes.',
-    image: '/images/residential-build.png',
-  },
-  {
-    title: 'Commercial Office Renovation',
-    category: 'Renovation',
-    description: 'Full interior remodel of a 5,000 sq ft office space.',
-    image: '/images/office-renovation.png',
-  },
-  {
-    title: 'Custom Kitchen Remodel',
-    category: 'Renovation',
-    description: 'High-end kitchen renovation with custom cabinetry.',
+    title: 'Modern Kitchen Remodel – Houston',
+    category: 'Kitchen Remodeling',
+    description: 'Complete kitchen transformation with custom cabinetry, quartz countertops, and modern appliances. Completed in 4 weeks.',
     image: '/images/kitchen-remodel.png',
   },
   {
-    title: 'Roof Replacement',
-    category: 'Roofing',
-    description: 'Complete roof replacement with premium materials.',
+    title: 'Full Home Renovation – Katy, TX',
+    category: 'Home Renovation',
+    description: 'Whole-home renovation including open floor plan, new flooring, and updated fixtures for a growing family.',
+    image: '/images/residential-build.png',
+  },
+  {
+    title: 'Master Bathroom Remodel – Sugar Land',
+    category: 'Bathroom Remodeling',
+    description: 'Luxury walk-in shower, double vanity, and heated tile floors. A spa-like retreat at home.',
+    image: '/images/office-renovation.png',
+  },
+  {
+    title: 'Roof & Exterior Restoration – Houston Heights',
+    category: 'General Construction',
+    description: 'Full roof replacement and exterior siding upgrade. Restored curb appeal and long-term protection.',
     image: '/images/roof-replacement.png',
   },
   {
-    title: 'Concrete Driveway',
-    category: 'Concrete',
-    description: 'Decorative stamped concrete driveway and walkways.',
+    title: 'Outdoor Living Space – The Woodlands',
+    category: 'General Construction',
+    description: 'Custom patio with stamped concrete, pergola, and outdoor kitchen area. Built for Houston living.',
     image: '/images/concrete-driveway.png',
   },
 ]
